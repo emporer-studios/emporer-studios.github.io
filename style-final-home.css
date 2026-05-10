@@ -1,0 +1,77 @@
+.banner {
+  background-color: blue;
+}
+
+a {
+  color: white;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-size: 5vw;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f132c0;
+}
+
+@keyframes EmporerSlide {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes LeftSlide {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes RightSlide {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes LogoSpin {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes ContactUs {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
