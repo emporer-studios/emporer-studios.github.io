@@ -1,0 +1,123 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 3vw;
+    animation: PageTitle 2s ease 0s 1 normal both;
+}
+
+.button {
+    width: 30vw;
+    height: 31vh;
+    border-radius: 15px;
+    background-color: #db4040;
+    border: none;
+}
+
+.button:hover {
+    background-color: #7f2424;
+    cursor: pointer;
+}
+
+.exit-button {
+    background-color: blue;
+    height: 4vh;
+    width: 8vw;
+    border-radius: 15px;
+    border: none;
+}
+
+.exit-button:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.row-align {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 27vw;
+}
+
+body {
+    background-color: #121212ee;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 3vw;
+}
+
+@keyframes PageTitle {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes RightSlide {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes LeftSlide {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes ZoomIn {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes SlideIn {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes Fade {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
